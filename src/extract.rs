@@ -77,7 +77,6 @@ pub(crate) fn extract_package(package_path: &str) -> Result<(), Box<dyn Error>> 
             file.file_name().to_string_lossy(),
             pathname
         );
-        println!("a");
 
         let mut output_file_path = PathBuf::from("./output/");
         output_file_path.push(&pathname);

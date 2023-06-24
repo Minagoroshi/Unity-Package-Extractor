@@ -7,7 +7,7 @@ Unity Package exporter written in rust
 ```
 or 
 ```
-unitypkgextractor <file_path
+unitypkgextractor <file_path>
 ```
 
 # License
